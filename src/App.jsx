@@ -9,7 +9,7 @@ function App() {
   // toto data load
   useEffect(()=>{
     dispatch(todoDataLoad());
-  },[]);
+  },[dispatch]);
 
 
   return (
